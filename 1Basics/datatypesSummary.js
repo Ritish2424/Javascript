@@ -31,9 +31,28 @@
 
 
 
-const myfunction = function () {
-    console.log("Hello World")
-}
+// const myfunction = function () {
+//     console.log("Hello World")
+// }
 
 
 // /identify the typeof all dataypes
+//==============================================================================================//
+// let myYoutubename="game like ritish"
+
+// let anothername=myYoutubename
+// anothername="Ritish"
+// // console.log(anothername)
+// console.log(myYoutubename)
+// console.log(anothername)
+
+
+let userone={
+    email: "ritishkanojia2424@gmail.com",
+    Upi : "ritish@dgi"
+}
+let usertwo=userone
+// console.log(usertwo)
+usertwo.email="ggg@hhth"
+console.log(userone.email)
+console.log(usertwo.email)
